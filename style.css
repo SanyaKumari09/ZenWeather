@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+   justify-content: center;  /*Horizontal-alignment */
+  align-items: center;       /*Vertical-alignment */
+  font-family: Helvetica, sans-serif;
+  background: linear-gradient(135deg, #180303, #f0f8ff);
+}
+
+.app {
+  background: #ffffff;
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 320px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.app-title{
+    margin:0;
+    margin-bottom:8px;
+    font-size:24px;
+    letter-spacing:1px;
+}
+
+h1 {
+   display: flex;
+  margin-top: 4;
+  margin-bottom: 16px;
+}
+
+
+.search-box {
+  /* display: flex; */
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.search-box button:hover {
+  opacity: 0.9;
+}
+
+.message {
+  min-height: 20px;
+  font-size: 14px;
+  color: #d9534f; /* red for errors */
+  margin-bottom: 8px;
+}
+
+.weather-card {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+}
+
+.weather-card img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-card p {
+  margin: 4px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.message {
+  min-height: 18px;
+  font-size: 13px;
+  color: #d9534f; /* red-ish for errors */
+}
+
+.weather-card {
+  margin-top: 4px;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+}
