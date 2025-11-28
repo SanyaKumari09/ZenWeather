@@ -15,6 +15,7 @@ const feelsLikeEl = document.getElementById("feelsLike");
 const humidityEl = document.getElementById("humidity");
 const windEl = document.getElementById("wind");
 
+
 // 3. When button is clicked, call getWeather
 searchBtn.addEventListener("click", () => {
   const city = cityInput.value.trim();
